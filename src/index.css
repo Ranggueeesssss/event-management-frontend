@@ -121,7 +121,6 @@ input:focus, select:focus, textarea:focus, button:focus {
 /* Custom accessibility focus-visible ring styles */
 *:focus-visible {
   outline: 2px solid transparent;
-  ring: 2px;
   box-shadow: 0 0 0 2px var(--bg-surface), 0 0 0 4px var(--border-focus);
   border-radius: var(--radius-sm);
 }
@@ -192,7 +191,6 @@ p {
   cursor: pointer;
   transition: all var(--transition-fast);
   gap: 0.5rem;
-  user-select: none;
   font-size: 0.875rem;
 }
 
@@ -449,7 +447,6 @@ p {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--primary);
-  user-select: none;
 }
 
 .brand-icon {
