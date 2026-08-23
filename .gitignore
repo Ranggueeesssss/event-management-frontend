@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables (jangan di-commit ke GitHub)
+.env
+.env.local
+.env.production
+
+# Mock backend dependencies (bisa diinstall ulang dengan: npm install --prefix ./mock-backend)
+mock-backend/node_modules
